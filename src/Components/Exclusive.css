@@ -1,0 +1,25 @@
+.exclusive{
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+}
+
+.exc_title{
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.exc_title h2{
+    font-size: 38px;
+    border: 1px solid red;
+}
+
+.exc_title p{
+    color: #585858;
+    font-size: 18px;
+    line-height: 1.7rem;
+    margin-left: 20%;
+    border: 1px solid red;
+    width: 70%;
+}
