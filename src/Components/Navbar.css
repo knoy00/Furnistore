@@ -1,12 +1,11 @@
 .navbar{
     width: 100%;
-    border: 1px solid red;
     height: 10vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: #fbfbfb;
+    background-color: #fefefe;
 }
 
 .nav_logo{
@@ -18,7 +17,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid red;
     width: 40%;
 }
 

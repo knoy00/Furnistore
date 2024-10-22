@@ -1,0 +1,64 @@
+.hero{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    overflow: hidden;
+    
+}
+
+.hero_left{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 60px;
+    height: 100%;
+    background: linear-gradient(to top, #ebebeb, #ffffff);
+}
+
+.hero_left h1{
+    margin-top: 20%;
+    width: 70%;
+    font-size: 38px;
+    padding-bottom: 5%;
+    
+
+}
+
+.hero_left span{
+    color: #FF5F00;
+    ;
+}
+
+.hero_left p{
+    font-size: 18px;
+    padding-bottom: 5%;
+}
+
+.hero_left button{
+    width: 20%;
+    padding: 15px 20px;
+    margin-top: 0%;
+    background-color: #FF5F00;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    
+}
+
+.hero_left button:hover{
+    color: #FF5F00;
+    background-color: #ffffff;
+}
+
+.hero_right{
+    width: 40%;
+    height: 100%;
+}
+
+.hero_right img{
+    width: 100%;
+    height: 100%;
+}
