@@ -16,7 +16,7 @@ function Exclusive() {
         </div>
 
         <div className='exclusive_buttons'>
-            <button>Living Room</button>
+            <button className='exc_active'>Living Room</button>
             <button>Dining Room</button>
             <button>Bedroom</button>
             <button>Home Office</button>
@@ -25,12 +25,12 @@ function Exclusive() {
         <div className='exclusive_images'>
             <div className='exl_left'>
                 <div>
-                    <img src={sofa1}/>
+                    <img src={sofa2}/>
                 </div>
             </div>
             <div className='exl_right'>
                 <div>
-                    <img src={sofa2}/>
+                    <img src={sofa1}/>
                 </div>
             </div>
         </div>
