@@ -1,0 +1,27 @@
+.navbar{
+    width: 100%;
+    border: 1px solid red;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fbfbfb;
+}
+
+.nav_logo{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.nav_links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid red;
+    width: 40%;
+}
+
+.nav_links ul{
+    list-style: none;
+}
