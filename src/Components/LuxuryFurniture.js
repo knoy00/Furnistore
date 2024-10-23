@@ -21,7 +21,7 @@ function LuxuryFurniture() {
                     <button>Shop Now</button>
                 </div>
             </div>
-
+            
         </div>
     );
 }

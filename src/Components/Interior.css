@@ -1,6 +1,6 @@
 .interior{
     width: 100%;
-    height: 100vh;
+    height: 160vh;
     padding: 80px;
 }
 
@@ -51,9 +51,12 @@
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    height:120vh;
+    height:110vh;
     margin-top: 50px;
     gap: 50px;
+    padding: 20px;
+    background-color: #f3f3f3d6;
+    backdrop-filter: blur(35px);
 }
 
 .interior_left{
@@ -62,14 +65,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
-    
+    justify-content: space-between;
+    gap: 0px;
     border-radius: 30px;
 }
 
 .top_image{
     width: 100%;
-    height: 50%;
+    height: 45%;
     border-radius: 30px;
     -webkit-box-shadow: 0px 0px 27px -1px rgba(0,0,0,0.53);
     -moz-box-shadow: 0px 0px 27px -1px rgba(0,0,0,0.53);
@@ -86,7 +89,7 @@
 
 .bottom_image{
     width: 100%;
-    height: 50%;
+    height: 45%;
     border-radius: 30px;
     -webkit-box-shadow: 0px 0px 27px -1px rgba(0,0,0,0.53);
     -moz-box-shadow: 0px 0px 27px -1px rgba(0,0,0,0.53);
@@ -96,7 +99,7 @@
 .bottom_image img{
     width: 100%;
     object-fit: cover;
-    height: 94%;
+    height: 100%;
     border-radius: 30px;
 }
 

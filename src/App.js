@@ -4,6 +4,7 @@ import Hero from './Components/Hero';
 import Exclusive from './Components/Exclusive';
 import LuxuryFurniture from './Components/LuxuryFurniture';
 import Interior from './Components/Interior';
+import NewExperience from './Components/NewExperience';
 
 import './App.css';
 
@@ -15,6 +16,7 @@ function App() {
       <Exclusive />
       <LuxuryFurniture />
       <Interior />
+      <NewExperience />
     </div>
   );
 }
