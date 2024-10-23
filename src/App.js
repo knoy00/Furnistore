@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar';
 import Hero from './Components/Hero';
 import Exclusive from './Components/Exclusive';
 import LuxuryFurniture from './Components/LuxuryFurniture';
+import Interior from './Components/Interior';
 
 import './App.css';
 
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <Exclusive />
       <LuxuryFurniture />
+      <Interior />
     </div>
   );
 }
