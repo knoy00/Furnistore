@@ -71,3 +71,17 @@
     margin-left: -115%;
     margin-top: 10%;
 }
+
+.exc_see_more{
+    position: absolute;
+    margin-left: 89%;
+    padding-top: 15px;
+}
+
+.exc_see_more ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    color: #FF5F00;
+    text-decoration: underline;
+    cursor: pointer;
+}

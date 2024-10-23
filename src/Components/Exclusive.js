@@ -1,6 +1,7 @@
 import React from 'react';
 import sofa1 from '../assets/images/11288327 1.png';
 import sofa2 from '../assets/images/11444657 1.png';
+import { Link } from 'react-scroll';
 
 import './Exclusive.css';
 
@@ -33,6 +34,12 @@ function Exclusive() {
                     <img src={sofa1}/>
                 </div>
             </div>
+        </div>
+
+        <div className='exc_see_more'>
+            <ul>
+                <li><Link>See more</Link></li>
+            </ul>
         </div>
     </div>
   )
