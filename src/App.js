@@ -7,11 +7,14 @@ import Interior from './Components/Interior';
 import NewExperience from './Components/NewExperience';
 import Projects from './Components/Projects';
 import ProjectsData from './Components/ProjectsData';
+import Footer from './Components/Footer';
+import footerData from './Components/FooterData';
 
 import './App.css';
 
 function App() {
 const projects = ProjectsData.projects;
+const footerLinks = footerData.data;
 
   return (
     <div className="App">
@@ -33,6 +36,24 @@ const projects = ProjectsData.projects;
           <Projects key={project.id} mappedData={project} />
         ))}
       </div>
+
+      <div>
+        {footerLinks.map((link) => (
+          <Footer id={link.id} item={link} />
+        ))}
+      </div>
+
+      <div className="footer_bottom">
+                <div>
+                    <h1></h1>
+                    <p></p>
+                </div>
+                <div>
+                    <input type="text" />
+                    <button>Sign Up</button>
+                </div>
+            </div>
+
     </div>
   );
 }

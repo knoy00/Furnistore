@@ -1,0 +1,29 @@
+.footer_container {
+    display: flex; /* Flexbox for columns */
+    justify-content: space-between; /* Even spacing between columns */
+    background-color: #ff5f00; /* Example background */
+    padding: 20px;
+  }
+  
+  .footer_column {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 10px; /* Space between links */
+  }
+  
+  .footer_column h1 {
+    font-size: 18px;
+    margin-bottom: 10px; /* Spacing below the title */
+  }
+  
+  .footer_column a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 5px; /* Space between links */
+  }
+  
+  .footer_column a:hover {
+    text-decoration: underline; /* Hover effect for links */
+  }
+  
