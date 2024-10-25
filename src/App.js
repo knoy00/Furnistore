@@ -9,20 +9,18 @@ import Projects from './Components/Projects';
 import ProjectsData from './Components/ProjectsData';
 import Footer from './Components/Footer';
 import footerData from './Components/FooterData';
-
-
 import 'font-awesome/css/font-awesome.min.css';
 import './App.css';
 import { Link } from 'react-scroll';
 
 function App() {
-const projects = ProjectsData.projects;
-const footerLinks = footerData.data;
+  const projects = ProjectsData.projects;
+  const footerLinks = footerData.data;
 
   return (
     <div className="App">
       <Link to='Hero' offset={0} spy={true} smooth={true} duration={1500}>
-      <i className="fa fa-arrow-up" />
+        <i className="fa fa-arrow-up" aria-label="Scroll to top" />
       </Link>
       
       <Navbar />
@@ -46,21 +44,20 @@ const footerLinks = footerData.data;
 
       <div>
         {footerLinks.map((link) => (
-          <Footer id={link.id} item={link} />
+          <Footer key={link.id} item={link} />
         ))}
       </div>
 
       <div className="footer_bottom">
-                <div>
-                    <h1></h1>
-                    <p></p>
-                </div>
-                <div>
-                    <input type="text" />
-                    <button>Sign Up</button>
-                </div>
-            </div>
-
+        <div>
+          <h1 aria-hidden="true">Newsletter Signup</h1> {/* Providing meaningful text */}
+          <p aria-hidden="true">Stay updated with our latest offers and products.</p> {/* Optional text */}
+        </div>
+        <div>
+          <input type="text" placeholder="Enter your email" aria-label="Email for newsletter signup" />
+          <button>Sign Up</button>
+        </div>
+      </div>
     </div>
   );
 }
