@@ -10,7 +10,10 @@ import ProjectsData from './Components/ProjectsData';
 import Footer from './Components/Footer';
 import footerData from './Components/FooterData';
 
+
+import 'font-awesome/css/font-awesome.min.css';
 import './App.css';
+import { Link } from 'react-scroll';
 
 function App() {
 const projects = ProjectsData.projects;
@@ -18,6 +21,10 @@ const footerLinks = footerData.data;
 
   return (
     <div className="App">
+      <Link to='Hero' offset={0} spy={true} smooth={true} duration={1500}>
+      <i className="fa fa-arrow-up" />
+      </Link>
+      
       <Navbar />
       <Hero />
       <Exclusive />

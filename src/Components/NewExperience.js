@@ -7,7 +7,7 @@ function NewExperience() {
   return (
     <div className='new_experience'>
       <div className='new_experience_left'>
-        <img src={halfSeat} />
+        <img src={halfSeat}  alt='Furniture'/>
       </div>
 
       <div className='new_experience_right'>

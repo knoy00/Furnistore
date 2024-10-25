@@ -26,7 +26,7 @@ function Exclusive() {
         <div className='exclusive_images'>
             <div className='exl_left'>
                 <div>
-                    <img src={sofa2}/>
+                    <img src={sofa2} alt='Furniture'/>
                 </div>
             </div>
             <div className='exl_right'>

@@ -4,7 +4,7 @@ import './Hero.css';
 
 function Hero(){
     return(
-        <div className="hero">
+        <div className="hero" id="Hero">
             <div className="hero_left">
                 <h1>Discover Timeless Furniture Crafted for <span>Comfort</span>  and <span>Style</span></h1>
 
