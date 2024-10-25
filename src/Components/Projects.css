@@ -12,6 +12,11 @@
    
 }
 
+.projects_text{
+    width: 50%;
+    max-width: 100%;
+}
+
 .projects_content h1{
     font-size: 77px;
     font-weight: 300;
@@ -40,7 +45,6 @@
 }
 
 .projects_img{
-    background-color: red;
     width: 25%;
     height: 14vh;
     border-radius: 50px;

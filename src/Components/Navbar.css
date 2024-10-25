@@ -5,7 +5,10 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: #fefefe;
+    background-color: #ffffff41;
+    backdrop-filter: blur(60px);
+    position: fixed;
+    z-index: 1000;
 }
 
 .nav_logo{

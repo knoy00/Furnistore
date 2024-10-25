@@ -26,8 +26,8 @@ const projects = ProjectsData.projects;
         <h1>Highlighting <span>Our Renowned Projects</span></h1>
         <p>Indulge in the perfect blend of comfort, luxury, and relaxation with our exclusive furniture collection. Each item is designed to provide a serene, inviting atmosphere, making your home a true haven.</p>
       </div>
-     
-
+      <hr />
+      
       <div>
         {projects.map((project) => (
           <Projects key={project.id} mappedData={project} />

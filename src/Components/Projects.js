@@ -9,7 +9,7 @@ function Projects({mappedData}) {
       <div className='projects_content'>
         <h1>{number}</h1>
 
-        <div>
+        <div className='projects_text'>
           <h3>{title}</h3>
           <p>{text}</p>
         </div>
