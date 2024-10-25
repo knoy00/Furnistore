@@ -19,6 +19,15 @@ const ProjectsData = {
             title: "Timeless Comfort",
             text: "Discover a balance of luxury and relaxation, thoughtfully designed to enhance the beauty of your home",
             img: bedroom2,
+            link: "",
+            alt: "bedroom"
+        },
+        {
+            id: 3,
+            number: "3",
+            title: "Opulent Tranquility",
+            text: "Surround yourself with exquisite craftsmanship and unmatched comfort, creating an atmosphere of pure luxury",
+            img: bedroom3,
             link: ""
         },
         {
@@ -28,7 +37,7 @@ const ProjectsData = {
             text: "Surround yourself with exquisite craftsmanship and unmatched comfort, creating an atmosphere of pure luxury",
             img: bedroom3,
             link: ""
-        }
+        },
     ]
 }
 

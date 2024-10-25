@@ -20,6 +20,7 @@
 .projects_content h1{
     font-size: 77px;
     font-weight: 300;
+    color: #484848;
 }
 
 .projects_content h3{
@@ -42,12 +43,27 @@
     border-radius: 50px;
     color: #FF5F00;
     font-weight: 600;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+
+.projects_content button:hover{
+    background-color: #FF5F00;
+    color: #ffffff;
 }
 
 .projects_img{
     width: 25%;
     height: 14vh;
     border-radius: 50px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.projects_img:hover{
+    -webkit-box-shadow: 0px 0px 27px -1px rgba(0,0,0,0.53);
+    -moz-box-shadow: 0px 0px 27px -1px rgba(0,0,0,0.53);
+    box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.393); 
 }
 
 .projects_img img{
@@ -56,6 +72,13 @@
     border-radius: 50px;
     object-fit: cover;
     object-position: center;
+    transition: .3s ease-in-out;
+    filter: grayscale(100%);
+}
+
+.projects_img img:hover{
+    filter: grayscale(0%);
+    border-radius: 20px 5px 20px 5px;
 }
 
 hr{

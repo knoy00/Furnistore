@@ -3,7 +3,7 @@ import React from 'react'
 import './Projects.css'
 
 function Projects({mappedData}) {
-  const {number, title, text, img, link} = mappedData
+  const {number, title, text, img, link, alt} = mappedData
   return (
     <div className='projects'>
       <div className='projects_content'>
@@ -19,7 +19,7 @@ function Projects({mappedData}) {
         </a>
 
         <div className='projects_img'>
-          <img src={img} alt='' />
+          <img src={img} alt={alt} />
         </div>
           
       </div>
