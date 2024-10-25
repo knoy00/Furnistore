@@ -8,3 +8,33 @@
   box-sizing: border-box;
   font-family: "Arial";
 }
+
+.projects_header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+  padding-bottom: 60px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.projects_header h1{
+  font-size: 35px;
+  color: #989898;
+  padding-bottom: 20px;
+  width: 50%;
+}
+
+.projects_header span{
+  color: #000000;
+}
+
+.projects_header p{
+  width: 50%;
+  line-height: 1.6rem;
+  color: #606060;
+  font-weight: 400;
+  letter-spacing: .04rem;
+  
+}
